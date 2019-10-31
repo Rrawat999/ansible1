@@ -1,9 +1,9 @@
 ---
 - name: install and start apache
-   hosts: all
-   user: root
+  hosts: all
+  user: root
 
-   tasks:  
+  tasks:  
    -  name: install httpd
        yum: pkg=httpd state=latest
 
